@@ -35,16 +35,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email Address"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/btnwhite"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingStart="15dp"
             android:inputType="textEmailAddress"/>
         <EditText
             android:id="@+id/EdFullname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Full Name"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/btnwhite"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingStart="15dp"
             android:layout_marginTop="10dp"
             android:inputType="text"/>
         <EditText
@@ -53,8 +61,12 @@
             android:layout_height="wrap_content"
             android:hint="Address"
             android:layout_marginTop="10dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/btnwhite"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingStart="15dp"
             android:inputType="text"/>
         <EditText
             android:id="@+id/EdPhone"
@@ -62,8 +74,12 @@
             android:layout_height="wrap_content"
             android:hint="Phone"
             android:layout_marginTop="10dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/btnwhite"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingStart="15dp"
             android:inputType="text"/>
         <EditText
             android:id="@+id/EdBirth"
@@ -71,8 +87,12 @@
             android:layout_height="wrap_content"
             android:hint="Birth day"
             android:layout_marginTop="10dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/btnwhite"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingStart="15dp"
             android:inputType="date"/>
 
 

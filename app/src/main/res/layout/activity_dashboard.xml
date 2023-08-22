@@ -61,15 +61,29 @@
                 app:cardPreventCornerOverlap="true"
                 app:cardUseCompatPadding="true"
                 android:layout_weight="1">
-
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:text="Merchant"
-                    android:gravity="center"/>
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:src="@drawable/merchant"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="Merchant"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -82,15 +96,27 @@
                 app:cardPreventCornerOverlap="true"
                 app:cardUseCompatPadding="true"
                 android:layout_weight="1">
-
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:text="City"
-                    android:gravity="center"/>
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:src="@drawable/city"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="City"
+                        android:gravity="center"/>
+                </LinearLayout>
 
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -112,14 +138,27 @@
                 app:cardUseCompatPadding="true"
                 android:layout_weight="1">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:text="Products"
-                    android:gravity="center"/>
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:src="@drawable/product"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="Products"
+                        android:gravity="center"/>
+                </LinearLayout>
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -133,14 +172,27 @@
                 app:cardUseCompatPadding="true"
                 android:layout_weight="1">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:text="Orders"
-                    android:gravity="center"/>
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:src="@drawable/order"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="Orders"
+                        android:gravity="center"/>
+                </LinearLayout>
 
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -162,14 +214,27 @@
                 app:cardUseCompatPadding="true"
                 android:layout_weight="1">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:text="MyProfile"
-                    android:gravity="center"/>
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:src="@drawable/user"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="Users"
+                        android:gravity="center"/>
+                </LinearLayout>
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -183,14 +248,27 @@
                 app:cardUseCompatPadding="true"
                 android:layout_weight="1">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:text="Report"
-                    android:gravity="center"/>
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:src="@drawable/report"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="Report"
+                        android:gravity="center"/>
+                </LinearLayout>
 
             </androidx.cardview.widget.CardView>
         </LinearLayout>

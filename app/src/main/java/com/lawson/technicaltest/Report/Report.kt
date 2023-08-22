@@ -72,8 +72,7 @@ class Report : AppCompatActivity() {
     }
     private fun MailTo(link: String, subject : String){
         val mail = Intent(Intent.ACTION_SENDTO).apply {
-            Uri.parse("mailto:")
-                putExtra(Intent.EXTRA_EMAIL, "ikramkalsel@gmail.com")
+            data = Uri.parse("mailto:")
                 putExtra(Intent.EXTRA_SUBJECT, subject)
                 putExtra(Intent.EXTRA_TEXT, link)
 
